@@ -1,0 +1,16 @@
+{
+  //   https://github.com/tsconfig/bases/blob/main/bases/node20.json
+  "compilerOptions": {
+    "lib": ["es2023"],
+    "module": "Node16",
+    "target": "es2022",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node16",
+
+    "outDir": "build"
+  }
+}
